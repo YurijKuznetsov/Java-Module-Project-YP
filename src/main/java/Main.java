@@ -64,7 +64,7 @@ class Calculator {
             if (scanner.hasNextInt()) {
                 number = scanner.nextInt();
                 if (this.number == 1) {
-                    System.out.println("Нет смысла делить счёт.");// ваш код начнется здесь
+                    System.out.println("Нет смысла делить счёт.");
                 } else if (this.number < 1) {
                     System.out.println("Некорректное значение для подсчёта.");
                 } else {
@@ -76,4 +76,4 @@ class Calculator {
             }
         }
     }
-}         // вы не должны ограничиваться только классом Main и можете создавать свои классы по необходимости
+}

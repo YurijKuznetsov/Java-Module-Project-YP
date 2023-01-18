@@ -1,6 +1,5 @@
 
 
-// dev branch for Y.Practicum
 public class Main {
     public static void main(final String[] args) {
         final Calculator calculator = new Calculator();
